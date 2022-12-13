@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { StoreModule } from '@ngrx/store/public_api';
+import { StoreModule } from '@ngrx/store';
 
 // Imports from other files 
 import { AppRoutingModule } from './app-routing.module';
