@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { StoreModule } from '@ngrx/store/public_api';
 
 // Imports from other files 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,7 +14,8 @@ import { AuthModule } from './auth/auth.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AuthModule
+    AuthModule,
+    StoreModule.forRoot([])
   ],
   providers: [],
   bootstrap: [AppComponent]
