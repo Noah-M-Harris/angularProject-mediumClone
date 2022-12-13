@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import { FormGroup, FormBuilder, Validators } from '@angular/forms'
-import { Store } from '@ngrx/store/src'
+import { Store } from '@ngrx/store'
 
 // Imports 
 import { registerAction } from '../../store/actions'
