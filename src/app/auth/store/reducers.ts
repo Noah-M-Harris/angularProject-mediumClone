@@ -2,7 +2,7 @@ import { createReducer, on, Action } from '@ngrx/store'
 
 // Imports from other files
 import { AuthStateInterface } from "../types/authState.interface";
-import { registerAction } from './actions';
+import { registerAction } from './actions/register.action';
 
 
 
